@@ -1,0 +1,62 @@
+name: Build font and specimen
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install ttfautohint
+      run: |
+        sudo apt-get update
+        sudo apt-get install ttfautohint
+    - uses: actions/cache@v2
+      with:
+        path: ./venv/
+        key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-venv-
+    - name: Do first-run script if necessary
+      run: make .init.stamp
+      if: github.repository != 'googlefonts/Unified-Font-Repository'
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      name: First-run setup
+      if: github.repository != 'googlefonts/Unified-Font-Repository'
+      with:
+        file_pattern: .init.stamp README.md
+    - name: Build font
+      run: make build
+    - name: Check with fontbakery
+      run: make test
+      continue-on-error: true
+    - name: Generate proofs
+      run: make proof
+    - name: Rearrange
+      run: |
+          mkdir for-gh-pages
+          mv fontbakery-report.md for-gh-pages
+          mv fontbakery-report.html for-gh-pages
+          mv badges for-gh-pages
+          git fetch --depth=1
+          mv proof/* for-gh-pages
+          git checkout -f gh-pages
+          cp -ar for-gh-pages/* .
+          rm -rf for-gh-pages
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      name: Commit to gh-pages
+      with:
+        branch: gh-pages
+        file_pattern: fonts *.html badges
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: Artifacts
+        path: |
+          fonts
+          *.html
+          fontbakery-report.md
