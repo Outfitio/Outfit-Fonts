@@ -19,7 +19,7 @@ A beautiful geometric sans from the brand automation specialists.
 
 ## About
 
-Description of you and/or organisation goes here.
+A beautiful collection of geometric sans fonts. The official typeface for outfit.io
 
 ## Building
 
