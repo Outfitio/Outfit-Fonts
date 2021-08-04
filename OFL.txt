@@ -1,4 +1,4 @@
-Copyright 2021 On Brand Investments Pty Ltd (https://github.com/Outfitio/Outfit-Fonts)
+Copyright 2021 Outfit Fonts Authors (https://github.com/Outfitio/Outfit-Fonts)
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
