@@ -1,8 +1,8 @@
 
 @font-face {
     font-family: 'Outfit';
-    src: url('Outfit-Thin.woff2') format('woff2'),
-        url('Outfit-Thin.woff') format('woff');
+    src: url('fonts/webfonts/Outfit-Thin.woff2') format('woff2'),
+        url('fonts/webfonts/Outfit-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -11,8 +11,8 @@
 
 @font-face {
     font-family: 'Outfit';
-    src: url('Outfit-UltraLight.woff2') format('woff2'),
-        url('Outfit-UltraLight.woff') format('woff');
+    src: url('fonts/webfonts/Outfit-UltraLight.woff2') format('woff2'),
+        url('fonts/webfonts/Outfit-UltraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -21,8 +21,8 @@
 
 @font-face {
     font-family: 'Outfit';
-    src: url('Outfit-Light.woff2') format('woff2'),
-        url('Outfit-Light.woff') format('woff');
+    src: url('fonts/webfonts/Outfit-Light.woff2') format('woff2'),
+        url('fonts/webfonts/Outfit-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -32,8 +32,8 @@
 
 @font-face {
     font-family: 'Outfit';
-    src: url('Outfit-Regular.woff2') format('woff2'),
-        url('Outfit-Regular.woff') format('woff');
+    src: url('fonts/webfonts/Outfit-Regular.woff2') format('woff2'),
+        url('fonts/webfonts/Outfit-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -41,8 +41,8 @@
 
 @font-face {
     font-family: 'Outfit';
-    src: url('Outfit-Medium.woff2') format('woff2'),
-        url('Outfit-Medium.woff') format('woff');
+    src: url('fonts/webfonts/Outfit-Medium.woff2') format('woff2'),
+        url('fonts/webfonts/Outfit-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -52,8 +52,8 @@
 
 @font-face {
     font-family: 'Outfit';
-    src: url('Outfit-SemiBold.woff2') format('woff2'),
-        url('Outfit-SemiBold.woff') format('woff');
+    src: url('fonts/webfonts/Outfit-SemiBold.woff2') format('woff2'),
+        url('fonts/webfonts/Outfit-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -63,8 +63,8 @@
 
 @font-face {
     font-family: 'Outfit';
-    src: url('Outfit-Bold.woff2') format('woff2'),
-        url('Outfit-Bold.woff') format('woff');
+    src: url('fonts/webfonts/Outfit-Bold.woff2') format('woff2'),
+        url('fonts/webfonts/Outfit-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -73,8 +73,8 @@
 
 @font-face {
     font-family: 'Outfit';
-    src: url('Outfit-UltraBold.woff2') format('woff2'),
-        url('Outfit-UltraBold.woff') format('woff');
+    src: url('fonts/webfonts/Outfit-UltraBold.woff2') format('woff2'),
+        url('fonts/webfonts/Outfit-UltraBold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -83,8 +83,8 @@
 
 @font-face {
     font-family: 'Outfit';
-    src: url('Outfit-Black.woff2') format('woff2'),
-        url('Outfit-Black.woff') format('woff');
+    src: url('fonts/webfonts/Outfit-Black.woff2') format('woff2'),
+        url('fonts/webfonts/Outfit-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
