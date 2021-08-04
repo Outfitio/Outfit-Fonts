@@ -1,7 +1,5 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
+  - Outfit.glyphs
 axisOrder:
   - wght
-  - ital
-familyName: Rubik
+familyName: Outfit
