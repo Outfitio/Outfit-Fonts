@@ -73,8 +73,8 @@
 
 @font-face {
     font-family: 'Outfit';
-    src: url('fonts/webfonts/Outfit-UltraBold.woff2') format('woff2'),
-        url('fonts/webfonts/Outfit-UltraBold.woff') format('woff');
+    src: url('fonts/webfonts/Outfit-ExtraBold.woff2') format('woff2'),
+        url('fonts/webfonts/Outfit-ExtraBold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
