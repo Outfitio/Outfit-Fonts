@@ -13,7 +13,6 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOutfitio%2FOutfit-Fonts%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOutfitio%2FOutfit-Fonts%2Fgh-pages%2Fbadges%2FUniversal.json
 
-A beautiful geometric sans from the brand automation specialists.
 
 ![Sample Image](documentation/image1.png)
 
