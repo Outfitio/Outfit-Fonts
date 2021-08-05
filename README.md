@@ -27,7 +27,7 @@ Geometrically inspired by the ligature-rich outfit wordmark, Outfit.io is deligh
 The Outfit typeface links the Outfit written voice to Outfit product marks; on brand by default. 
 
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at `https://yourname.github.io/your-font-repository-name`.
+The proof files and QA tests are also available automatically via GitHub Actions - look at `https://outfitio.github.io/Outfit-Fonts/`.
 
 
 ## Building
