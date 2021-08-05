@@ -11,8 +11,8 @@
 
 @font-face {
     font-family: 'Outfit';
-    src: url('fonts/webfonts/Outfit-UltraLight.woff2') format('woff2'),
-        url('fonts/webfonts/Outfit-UltraLight.woff') format('woff');
+    src: url('fonts/webfonts/Outfit-ExtraLight.woff2') format('woff2'),
+        url('fonts/webfonts/Outfit-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
