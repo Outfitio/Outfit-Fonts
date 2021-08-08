@@ -18,15 +18,15 @@
 
 ## About
 
-A beautiful collection of geometric sans fonts. The official typeface for outfit.io
+A beautiful geometric sans: The official typeface for outfit.io
 
-“typefaces are the clothes words wear.” -Beatrice Warde
+> “typefaces are the clothes words wear.” -Beatrice Warde
 
-Geometrically inspired by the ligature-rich outfit wordmark, Outfit.io is delighted to release it's own type family.
+Inspired by the ligature-rich outfit wordmark, Outfit.io is delighted to release it's own type family.
 The Outfit typeface links the Outfit written voice to Outfit product marks; on brand by default. 
 
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at `https://outfitio.github.io/Outfit-Fonts/`.
+The proof files and QA tests are also available [automatically via GitHub Actions](https://outfitio.github.io/Outfit-Fonts/)
 
 
 ## Building
