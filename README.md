@@ -18,7 +18,7 @@
 
 ## About
 
-A beautiful geometric sans: The official typeface for outfit.io
+A beautiful geometric sans: The official typeface for brand automation company outfit.io
 
 > “typefaces are the clothes words wear.” -Beatrice Warde
 
