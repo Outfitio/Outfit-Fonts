@@ -55,7 +55,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature pnum;\012feature tnum;\012feature salt;\012feature ss01;\012feature sups;\012feature frac;\012feature ordn;\012";
+code = "feature sups;\012feature frac;\012feature ordn;\012feature pnum;\012feature tnum;\012feature salt;\012feature ss01;\012";
 name = aalt;
 },
 {
@@ -98,12 +98,12 @@ name = liga;
 },
 {
 automatic = 1;
-code = "sub e by e.ss01;\012sub g by g.ss01;\012sub m by m.ss01;\012sub n by n.ss01;\012sub ntilde by ntilde.ss01;\012sub t by t.ss01;\012sub one by one.ss01;\012sub ampersand by ampersand.ss01;\012";
+code = "sub e by e.ss01;\012sub g by g.ss01;\012sub k by k.ss01;\012sub m by m.ss01;\012sub n by n.ss01;\012sub ntilde by ntilde.ss01;\012sub t by t.ss01;\012sub one by one.ss01;\012sub ampersand by ampersand.ss01;\012";
 name = salt;
 },
 {
 automatic = 1;
-code = "sub e by e.ss01;\012sub g by g.ss01;\012sub m by m.ss01;\012sub n by n.ss01;\012sub ntilde by ntilde.ss01;\012sub t by t.ss01;\012sub one by one.ss01;\012sub ampersand by ampersand.ss01;\012";
+code = "sub e by e.ss01;\012sub g by g.ss01;\012sub k by k.ss01;\012sub m by m.ss01;\012sub n by n.ss01;\012sub ntilde by ntilde.ss01;\012sub t by t.ss01;\012sub one by one.ss01;\012sub ampersand by ampersand.ss01;\012";
 name = ss01;
 }
 );
