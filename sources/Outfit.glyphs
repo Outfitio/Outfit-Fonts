@@ -1,9 +1,5 @@
 {
 .appVersion = "3133";
-DisplayStrings = (
-"®",
-"/Acaron"
-);
 copyright = "Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)";
 customParameters = (
 {
@@ -37607,6 +37603,85 @@ width = 658;
 }
 );
 unicode = 2196;
+},
+{
+color = 0;
+export = 0;
+glyphname = leftRightArrow;
+lastChange = "2022-08-27 23:20:00 +0000";
+layers = (
+{
+components = (
+{
+name = leftArrow;
+},
+{
+name = rightArrow;
+transform = "{1, 0, 0, 1, 252, 0}";
+}
+);
+layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
+width = 910;
+},
+{
+components = (
+{
+name = leftArrow;
+},
+{
+name = rightArrow;
+transform = "{1, 0, 0, 1, 398, 0}";
+}
+);
+layerId = m01;
+width = 1056;
+},
+{
+components = (
+{
+name = leftArrow;
+},
+{
+name = rightArrow;
+transform = "{1, 0, 0, 1, 500, 0}";
+}
+);
+layerId = "9F43D23A-D415-475F-B4C7-798B571F7CAB";
+width = 1158;
+}
+);
+unicode = 2194;
+},
+{
+color = 0;
+export = 0;
+glyphname = upDownArrow;
+lastChange = "2022-08-27 23:19:52 +0000";
+layers = (
+{
+components = (
+{
+name = upArrow;
+transform = "{1, 0, 0, 1, 0, 28}";
+},
+{
+name = downArrow;
+transform = "{1, 0, 0, 1, 0, -224}";
+}
+);
+layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
+width = 658;
+},
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = "9F43D23A-D415-475F-B4C7-798B571F7CAB";
+width = 600;
+}
+);
+unicode = 2195;
 },
 {
 glyphname = dieresiscomb;
