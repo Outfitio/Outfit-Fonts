@@ -35623,7 +35623,7 @@ unicode = 0303;
 },
 {
 glyphname = macroncomb;
-lastChange = "2022-08-27 00:43:36 +0000";
+lastChange = "2022-08-27 01:10:12 +0000";
 layers = (
 {
 anchors = (
@@ -35633,7 +35633,7 @@ position = "{195, 460}";
 },
 {
 name = top;
-position = "{195, 614}";
+position = "{195, 550}";
 }
 );
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
@@ -35641,10 +35641,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"40 605 LINE",
-"350 605 LINE",
-"350 632 LINE",
-"40 632 LINE"
+"40 564 LINE",
+"350 564 LINE",
+"350 591 LINE",
+"40 591 LINE"
 );
 }
 );
@@ -35658,7 +35658,7 @@ position = "{228, 480}";
 },
 {
 name = top;
-position = "{228, 674}";
+position = "{228, 664}";
 }
 );
 layerId = m01;
@@ -35666,10 +35666,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"40 588 LINE",
-"416 588 LINE",
-"416 678 LINE",
-"40 678 LINE"
+"40 578 LINE",
+"416 578 LINE",
+"416 668 LINE",
+"40 668 LINE"
 );
 }
 );
@@ -35683,7 +35683,7 @@ position = "{236, 492}";
 },
 {
 name = top;
-position = "{236, 734}";
+position = "{236, 732}";
 }
 );
 layerId = "9F43D23A-D415-475F-B4C7-798B571F7CAB";
@@ -35691,10 +35691,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"40 554 LINE",
-"432 554 LINE",
-"432 691 LINE",
-"40 691 LINE"
+"40 575 LINE",
+"432 575 LINE",
+"432 712 LINE",
+"40 712 LINE"
 );
 }
 );
