@@ -28,6 +28,10 @@ name = unicodeRanges;
 value = (
 0
 );
+},
+{
+name = vendorID;
+value = frag;
 }
 );
 date = "2021-06-01 13:26:22 +0000";
