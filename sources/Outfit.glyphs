@@ -1,10 +1,6 @@
 {
 .appVersion = "3133";
 .formatVersion = 3;
-DisplayStrings = (
-"←",
-"↑"
-);
 axes = (
 {
 name = Weight;
@@ -7435,7 +7431,7 @@ KernOnName = a;
 {
 glyphname = aacute;
 kernLeft = o;
-lastChange = "2022-08-27 06:40:41 +0000";
+lastChange = "2022-08-27 10:59:29 +0000";
 layers = (
 {
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
@@ -7470,7 +7466,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (118,0);
+pos = (138,0);
 ref = acutecomb;
 }
 );
@@ -7482,7 +7478,7 @@ unicode = 225;
 {
 glyphname = acircumflex;
 kernLeft = o;
-lastChange = "2022-08-27 06:40:41 +0000";
+lastChange = "2022-08-27 10:59:29 +0000";
 layers = (
 {
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
@@ -7517,7 +7513,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (52,0);
+pos = (72,0);
 ref = circumflexcomb;
 }
 );
@@ -7529,7 +7525,7 @@ unicode = 226;
 {
 glyphname = adieresis;
 kernLeft = o;
-lastChange = "2022-08-27 06:40:39 +0000";
+lastChange = "2022-08-27 10:59:29 +0000";
 layers = (
 {
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
@@ -7564,7 +7560,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (30,0);
+pos = (50,0);
 ref = dieresiscomb;
 }
 );
@@ -7576,7 +7572,7 @@ unicode = 228;
 {
 glyphname = agrave;
 kernLeft = o;
-lastChange = "2022-08-27 06:40:41 +0000";
+lastChange = "2022-08-27 10:59:29 +0000";
 layers = (
 {
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
@@ -7611,7 +7607,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (98,0);
+pos = (118,0);
 ref = gravecomb;
 }
 );
@@ -7624,7 +7620,7 @@ unicode = 224;
 color = 0;
 glyphname = amacron;
 kernLeft = o;
-lastChange = "2022-08-27 06:38:41 +0000";
+lastChange = "2022-08-27 10:57:23 +0000";
 layers = (
 {
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
@@ -7633,7 +7629,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (89,0);
+pos = (109,0);
 ref = macroncomb;
 }
 );
@@ -7671,7 +7667,7 @@ unicode = 257;
 {
 glyphname = aring;
 kernLeft = o;
-lastChange = "2022-08-27 06:40:41 +0000";
+lastChange = "2022-08-27 10:59:29 +0000";
 layers = (
 {
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
@@ -7706,7 +7702,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (118,0);
+pos = (138,0);
 ref = ringcomb;
 }
 );
@@ -7718,7 +7714,7 @@ unicode = 229;
 {
 glyphname = atilde;
 kernLeft = o;
-lastChange = "2022-08-27 06:40:41 +0000";
+lastChange = "2022-08-27 10:59:29 +0000";
 layers = (
 {
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
@@ -7753,7 +7749,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (33,0);
+pos = (53,0);
 ref = tildecomb;
 }
 );
@@ -7767,35 +7763,22 @@ color = 3;
 glyphname = ae;
 kernLeft = o;
 kernRight = e;
-lastChange = "2022-08-27 01:35:15 +0000";
+lastChange = "2022-08-27 10:58:49 +0000";
 layers = (
 {
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
 shapes = (
 {
 alignment = -1;
-pos = (426,0);
+pos = (429,0);
 ref = e;
-},
-{
-attr = {
-fill = 1;
-mask = 1;
-};
-closed = 1;
-nodes = (
-(462,0,l),
-(493,0,l),
-(493,460,l),
-(462,460,l)
-);
 },
 {
 alignment = -1;
 ref = a;
 }
 );
-width = 968;
+width = 971;
 },
 {
 layerId = m01;
@@ -7804,19 +7787,6 @@ shapes = (
 alignment = -1;
 pos = (386,0);
 ref = e;
-},
-{
-attr = {
-fill = 1;
-mask = 1;
-};
-closed = 1;
-nodes = (
-(349,0,l),
-(459,0,l),
-(459,480,l),
-(349,480,l)
-);
 },
 {
 alignment = -1;
@@ -7832,19 +7802,6 @@ shapes = (
 alignment = -1;
 pos = (388,0);
 ref = e;
-},
-{
-attr = {
-fill = 1;
-mask = 1;
-};
-closed = 1;
-nodes = (
-(282,0,l),
-(473,0,l),
-(473,492,l),
-(282,492,l)
-);
 },
 {
 alignment = -1;
@@ -14807,35 +14764,22 @@ color = 4;
 glyphname = ae.ss01;
 kernLeft = o;
 kernRight = e;
-lastChange = "2022-08-27 01:54:06 +0000";
+lastChange = "2022-08-27 10:58:24 +0000";
 layers = (
 {
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
 shapes = (
 {
 alignment = -1;
-pos = (426,0);
+pos = (429,0);
 ref = e.ss01;
-},
-{
-attr = {
-fill = 1;
-mask = 1;
-};
-closed = 1;
-nodes = (
-(462,0,l),
-(493,0,l),
-(493,460,l),
-(462,460,l)
-);
 },
 {
 alignment = -1;
 ref = a;
 }
 );
-width = 927;
+width = 930;
 },
 {
 layerId = m01;
@@ -14844,19 +14788,6 @@ shapes = (
 alignment = -1;
 pos = (386,0);
 ref = e.ss01;
-},
-{
-attr = {
-fill = 1;
-mask = 1;
-};
-closed = 1;
-nodes = (
-(349,0,l),
-(459,0,l),
-(459,480,l),
-(349,480,l)
-);
 },
 {
 alignment = -1;
@@ -14872,19 +14803,6 @@ shapes = (
 alignment = -1;
 pos = (388,0);
 ref = e.ss01;
-},
-{
-attr = {
-fill = 1;
-mask = 1;
-};
-closed = 1;
-nodes = (
-(282,0,l),
-(473,0,l),
-(473,492,l),
-(282,492,l)
-);
 },
 {
 alignment = -1;
