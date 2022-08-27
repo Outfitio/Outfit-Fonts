@@ -3120,43 +3120,76 @@ color = 0;
 glyphname = Imacron;
 kernLeft = H;
 kernRight = H;
-lastChange = "2022-08-27 01:02:25 +0000";
+lastChange = "2022-08-27 06:34:03 +0000";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (115,766);
+}
+);
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
 shapes = (
 {
 ref = I;
 },
 {
-pos = (-80,216);
-ref = macroncomb;
+closed = 1;
+nodes = (
+(-2,780,l),
+(232,780,l),
+(232,807,l),
+(-2,807,l)
+);
 }
 );
 width = 230;
 },
 {
+anchors = (
+{
+name = top;
+pos = (134,884);
+}
+);
 layerId = m01;
 shapes = (
 {
 ref = I;
 },
 {
-pos = (-94,220);
-ref = macroncomb;
+closed = 1;
+nodes = (
+(-36,798,l),
+(304,798,l),
+(304,888,l),
+(-36,888,l)
+);
 }
 );
 width = 267;
 },
 {
+anchors = (
+{
+name = top;
+pos = (159,952);
+}
+);
 layerId = "9F43D23A-D415-475F-B4C7-798B571F7CAB";
 shapes = (
 {
 ref = I;
 },
 {
-pos = (-77,220);
-ref = macroncomb;
+closed = 1;
+nodes = (
+(-37,795,l),
+(355,795,l),
+(355,932,l),
+(-37,932,l)
+);
 }
 );
 width = 318;
@@ -6912,7 +6945,7 @@ metricRight = h;
 glyphname = T_l;
 kernLeft = T;
 kernRight = l;
-lastChange = "2021-07-22 20:34:11 +0000";
+lastChange = "2022-08-27 06:26:25 +0000";
 layers = (
 {
 background = {
@@ -10416,43 +10449,76 @@ color = 0;
 glyphname = imacron;
 kernLeft = i;
 kernRight = i;
-lastChange = "2022-08-27 01:03:54 +0000";
+lastChange = "2022-08-27 06:30:59 +0000";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (96,550);
+}
+);
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
 shapes = (
 {
 ref = idotless;
 },
 {
-pos = (-99,0);
-ref = macroncomb;
+closed = 1;
+nodes = (
+(-21,564,l),
+(213,564,l),
+(213,591,l),
+(-21,591,l)
+);
 }
 );
 width = 192;
 },
 {
+anchors = (
+{
+name = top;
+pos = (116,664);
+}
+);
 layerId = m01;
 shapes = (
 {
 ref = idotless;
 },
 {
-pos = (-112,0);
-ref = macroncomb;
+closed = 1;
+nodes = (
+(-54,578,l),
+(286,578,l),
+(286,668,l),
+(-54,668,l)
+);
 }
 );
 width = 232;
 },
 {
+anchors = (
+{
+name = top;
+pos = (145,732);
+}
+);
 layerId = "9F43D23A-D415-475F-B4C7-798B571F7CAB";
 shapes = (
 {
 ref = idotless;
 },
 {
-pos = (-91,0);
-ref = macroncomb;
+closed = 1;
+nodes = (
+(-51,575,l),
+(341,575,l),
+(341,712,l),
+(-51,712,l)
+);
 }
 );
 width = 290;
@@ -26464,7 +26530,7 @@ R = "spaced-off";
 },
 {
 glyphname = question;
-lastChange = "2021-07-28 19:49:54 +0000";
+lastChange = "2022-08-27 06:27:54 +0000";
 layers = (
 {
 layerId = m01;
