@@ -1,5 +1,8 @@
 {
 .appVersion = "3133";
+DisplayStrings = (
+"/hungarumlautcomb"
+);
 copyright = "Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)";
 customParameters = (
 {
@@ -5242,7 +5245,7 @@ unicode = 00D2;
 {
 color = 0;
 glyphname = Ohungarumlaut;
-lastChange = "2022-09-17 03:36:26 +0000";
+lastChange = "2022-09-17 21:31:27 +0000";
 layers = (
 {
 components = (
@@ -5251,7 +5254,7 @@ name = O;
 },
 {
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, 221, 216}";
+transform = "{1, 0, 0, 1, 249, 216}";
 }
 );
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
@@ -7424,7 +7427,7 @@ unicode = 00D9;
 {
 color = 0;
 glyphname = Uhungarumlaut;
-lastChange = "2022-09-17 03:55:04 +0000";
+lastChange = "2022-09-17 21:31:27 +0000";
 layers = (
 {
 components = (
@@ -7433,7 +7436,7 @@ name = U;
 },
 {
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, 155, 216}";
+transform = "{1, 0, 0, 1, 183, 216}";
 }
 );
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
@@ -15076,7 +15079,7 @@ unicode = 00F2;
 {
 color = 0;
 glyphname = ohungarumlaut;
-lastChange = "2022-09-17 03:36:42 +0000";
+lastChange = "2022-09-17 21:31:27 +0000";
 layers = (
 {
 components = (
@@ -15085,7 +15088,7 @@ name = o;
 },
 {
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, 111, 0}";
+transform = "{1, 0, 0, 1, 139, 0}";
 }
 );
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
@@ -15098,7 +15101,7 @@ name = o;
 },
 {
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, 45, 20}";
+transform = "{1, 0, 0, 1, 79, 20}";
 }
 );
 layerId = m01;
@@ -15111,7 +15114,7 @@ name = o;
 },
 {
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, -16, 32}";
+transform = "{1, 0, 0, 1, 4, 32}";
 }
 );
 layerId = "9F43D23A-D415-475F-B4C7-798B571F7CAB";
@@ -17589,7 +17592,7 @@ unicode = 00F9;
 {
 color = 0;
 glyphname = uhungarumlaut;
-lastChange = "2022-09-17 03:35:08 +0000";
+lastChange = "2022-09-17 21:31:27 +0000";
 layers = (
 {
 components = (
@@ -17598,7 +17601,7 @@ name = u;
 },
 {
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, 80, 0}";
+transform = "{1, 0, 0, 1, 108, 0}";
 }
 );
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
@@ -40655,55 +40658,57 @@ unicode = 0301;
 {
 color = 0;
 glyphname = hungarumlautcomb;
-lastChange = "2022-09-17 03:34:53 +0000";
+lastChange = "2022-09-17 21:31:20 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{176, 460}";
+position = "{148, 460}";
 },
 {
 name = top;
-position = "{176, 664}";
+position = "{148, 664}";
 }
 );
 components = (
 {
 name = acutecomb;
+transform = "{0.90631, 0.42262, -0.42262, 0.90631, 236, 7}";
 },
 {
 alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 115, 0}";
+transform = "{0.90631, 0.42262, -0.42262, 0.90631, 351, 7}";
 }
 );
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
-width = 359;
+width = 290;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{237, 460}";
+position = "{213, 460}";
 },
 {
 name = top;
-position = "{237, 664}";
+position = "{213, 664}";
 }
 );
 components = (
 {
 name = acutecomb;
+transform = "{0.90631, 0.42262, -0.42262, 0.90631, 257, 0}";
 },
 {
 alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 210, 0}";
+transform = "{0.90631, 0.42262, -0.42262, 0.90631, 447, 0}";
 }
 );
 layerId = m01;
-width = 503;
+width = 430;
 },
 {
 anchors = (
@@ -40719,15 +40724,16 @@ position = "{310, 664}";
 components = (
 {
 name = acutecomb;
+transform = "{0.90631, 0.42262, -0.42262, 0.90631, 270, -14}";
 },
 {
 alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 290, 0}";
+transform = "{0.90631, 0.42262, -0.42262, 0.90631, 536, -14}";
 }
 );
 layerId = "9F43D23A-D415-475F-B4C7-798B571F7CAB";
-width = 643;
+width = 601;
 }
 );
 leftMetricsKey = acutecomb;
@@ -41724,7 +41730,7 @@ unicode = 00B4;
 {
 color = 0;
 glyphname = hungarumlaut;
-lastChange = "2022-09-17 21:11:14 +0000";
+lastChange = "2022-09-17 21:31:27 +0000";
 layers = (
 {
 components = (
@@ -41734,7 +41740,7 @@ name = hungarumlautcomb;
 }
 );
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
-width = 359;
+width = 290;
 },
 {
 components = (
