@@ -4695,7 +4695,7 @@ unicode = 0141;
 },
 {
 glyphname = M;
-lastChange = "2022-08-27 04:55:46 +0000";
+lastChange = "2022-09-18 02:40:37 +0000";
 layers = (
 {
 background = {
@@ -37841,21 +37841,57 @@ width = 534;
 unicode = 00AE;
 },
 {
-color = 10;
+color = 0;
 glyphname = trademark;
-lastChange = "2022-08-27 23:40:42 +0000";
+lastChange = "2022-09-18 02:46:34 +0000";
 layers = (
 {
+components = (
+{
+alignment = -1;
+name = T;
+transform = "{0.50143, 0, 0, 0.5, -1, 319}";
+},
+{
+alignment = -1;
+name = M;
+transform = "{0.50236, 0, 0, 0.5, 276, 319}";
+}
+);
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
-width = 600;
+width = 667;
 },
 {
+components = (
+{
+alignment = -1;
+name = T;
+transform = "{0.50143, 0, 0, 0.5, 12, 319}";
+},
+{
+alignment = -1;
+name = M;
+transform = "{0.50236, 0, 0, 0.5, 293, 319}";
+}
+);
 layerId = m01;
-width = 600;
+width = 702;
 },
 {
+components = (
+{
+alignment = -1;
+name = T;
+transform = "{0.50143, 0, 0, 0.5, 16, 319}";
+},
+{
+alignment = -1;
+name = M;
+transform = "{0.50236, 0, 0, 0.5, 330, 319}";
+}
+);
 layerId = "9F43D23A-D415-475F-B4C7-798B571F7CAB";
-width = 600;
+width = 763;
 }
 );
 unicode = 2122;
@@ -38125,6 +38161,62 @@ width = 317;
 }
 );
 unicode = 00A6;
+},
+{
+color = 0;
+glyphname = servicemark;
+lastChange = "2022-09-18 02:46:34 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = S;
+transform = "{0.50143, 0, 0, 0.5, -1, 319}";
+},
+{
+alignment = -1;
+name = M;
+transform = "{0.50236, 0, 0, 0.5, 232, 319}";
+}
+);
+layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
+width = 623;
+},
+{
+components = (
+{
+alignment = -1;
+name = S;
+transform = "{0.50143, 0, 0, 0.5, 11, 319}";
+},
+{
+alignment = -1;
+name = M;
+transform = "{0.50236, 0, 0, 0.5, 267, 319}";
+}
+);
+layerId = m01;
+width = 676;
+},
+{
+components = (
+{
+alignment = -1;
+name = S;
+transform = "{0.50143, 0, 0, 0.5, 21, 319}";
+},
+{
+alignment = -1;
+name = M;
+transform = "{0.50236, 0, 0, 0.5, 316, 319}";
+}
+);
+layerId = "9F43D23A-D415-475F-B4C7-798B571F7CAB";
+width = 749;
+}
+);
+unicode = 2120;
 },
 {
 glyphname = ampersand.ss01;
@@ -41873,10 +41965,10 @@ width = 658;
 unicode = 2196;
 },
 {
-color = 0;
+color = 10;
 export = 0;
 glyphname = leftRightArrow;
-lastChange = "2022-08-27 23:20:00 +0000";
+lastChange = "2022-09-18 02:46:49 +0000";
 layers = (
 {
 components = (
@@ -41921,10 +42013,10 @@ width = 1158;
 unicode = 2194;
 },
 {
-color = 0;
+color = 10;
 export = 0;
 glyphname = upDownArrow;
-lastChange = "2022-08-27 23:19:52 +0000";
+lastChange = "2022-09-18 02:46:49 +0000";
 layers = (
 {
 components = (
