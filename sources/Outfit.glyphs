@@ -33754,38 +33754,71 @@ R = "spaced-off";
 {
 color = 10;
 glyphname = periodcentered.loclCAT;
-lastChange = "2022-08-27 23:40:55 +0000";
+lastChange = "2022-09-18 02:48:57 +0000";
 layers = (
 {
+components = (
+{
+name = periodcentered;
+}
+);
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
-width = 600;
+width = 80;
 },
 {
+components = (
+{
+name = periodcentered;
+}
+);
 layerId = m01;
-width = 600;
+width = 146;
 },
 {
+components = (
+{
+name = periodcentered;
+}
+);
 layerId = "9F43D23A-D415-475F-B4C7-798B571F7CAB";
-width = 600;
+width = 217;
 }
 );
 },
 {
 color = 10;
 glyphname = periodcentered.loclCAT.case;
-lastChange = "2022-08-27 23:40:55 +0000";
+lastChange = "2022-09-18 02:49:37 +0000";
 layers = (
 {
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, 0, -16}";
+}
+);
 layerId = "0B0D9703-EF89-4C57-A339-A59A1335C1A4";
-width = 600;
+width = 80;
 },
 {
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, 0, -17}";
+}
+);
 layerId = m01;
-width = 600;
+width = 146;
 },
 {
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, 0, -15}";
+}
+);
 layerId = "9F43D23A-D415-475F-B4C7-798B571F7CAB";
-width = 600;
+width = 217;
 }
 );
 },
