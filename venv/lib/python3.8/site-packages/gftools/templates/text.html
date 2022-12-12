@@ -1,0 +1,14 @@
+{% extends "_base.html" %}
+{% block title %}Text{% endblock %}
+
+{% block content_name %}
+<b>Text</b>
+{% endblock %}
+{% block content %}
+  {% for font_class in css_font_classes or css_font_classes_before or css_font_classes_after %}
+    <div class="box">
+      <div class="box-title">{{ font_class.selector }} {{ pt_size }}pt</div>
+      <div dir="auto" class="{{ font_class.selector }}" style="font-size: {{ pt_size }}pt">{{ sample_text }}</span>
+    </div>
+  {% endfor %}
+{% endblock %}

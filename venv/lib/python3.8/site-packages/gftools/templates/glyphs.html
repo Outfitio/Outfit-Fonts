@@ -1,0 +1,32 @@
+{% extends "_base.html" %}
+{% block title %}Glyphs{% endblock %}
+{% block style %}
+{{ super() }}
+.cell{
+  position: relative;
+  z-index: -1;
+  float: left;
+  background-color: #fcfcfc;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: {{ pt_size | int * 1.5 }}px;
+  line-height: {{ pt_size | int * 1.5}}px;
+}
+{% endblock %}
+{% block content_name %}
+<b>Text</b>
+{% endblock %}
+{% block content %}
+  {% for font_class in css_font_classes or css_font_classes_before or css_font_classes_after %}
+      <div class="box">
+	<div class="box-title">{{ font_class.selector }} {{ pt_size }}pt</div>
+	  <span class="{{ font_class.selector }}" style="font-size: {{ pt_size }}pt">
+	    {% for glyph in glyphs %}
+	      <div class="cell">{{ glyph }}</div>
+	    {% endfor %}
+          </span>
+       </div>
+    {% endfor %}
+{% endblock %}
