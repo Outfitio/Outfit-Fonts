@@ -22,7 +22,7 @@ A beautiful geometric sans: The official typeface for brand automation company o
 
 > “typefaces are the clothes words wear.” -Beatrice Warde
 
-Inspired by the ligature-rich outfit wordmark, Outfit.io is delighted to release it's own type family.
+Inspired by the ligature-rich outfit wordmark, Outfit.io is delighted to release its own type family.
 The Outfit typeface links the Outfit written voice to Outfit product marks; on brand by default. 
 
 
